@@ -141,3 +141,7 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+# Local analysis and generated review files
+tmp/
+gestaltungs-handbuch-extract.txt
