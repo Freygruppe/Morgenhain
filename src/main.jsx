@@ -64,15 +64,20 @@ const content = {
     },
     projekt: {
       eyebrow: 'Projekt',
-      title: 'Pflege, Wohnen und Quartier als zusammenhängendes System',
+      title: 'Ein sozialer Baustein für Freiburg-Dietenbach',
       intro:
-        'Morgenhain wird als kompakter Stadtbaustein geplant: eindeutig adressiert, offen zum Quartier, geschützt im Inneren und präzise organisiert für Pflege- und Betreuungsabläufe.',
+        'Dietenbach steht für ein klimaangepasstes, inklusives Quartier mit kurzen Wegen, vielfältigen Wohnformen und einer starken sozialen Infrastruktur. Diese Haltung entspricht dem Ansatz von Morgenhain. Gerade in einem wachsenden Stadtteil braucht es nachhaltige Angebote für ältere Menschen, die Pflege, Selbstständigkeit und Teilhabe miteinander verbinden. Gemeinsam mit einem erfahrenen Partner wie dem ASB bringen wir dafür belastbare Erfahrung aus Planung und Betrieb ein.',
       sections: [
-        ['Nutzung und Betrieb', 'Vorgesehen ist ein altersgerechtes Haus mit professionell betriebenen Pflege- und Betreuungsangeboten. Mit ASB als Partner werden fachliche Standards, Alltagstauglichkeit, Wertschätzung und ein möglichst selbstbestimmtes Leben früh in die Planung übersetzt.'],
-        ['Quartiersgrundriss', 'Das Gestaltungshandbuch beschreibt Dietenbach als offenen Blockrand mit kurzen Wegen, Blocköffnungen und gemeinschaftlichen Innenhöfen. Morgenhain nimmt diese Logik auf: kein abgeschlossener Sonderbau, sondern ein klarer Baustein im Wohnumfeld.'],
-        ['Freiraum und Schwammstadt', 'Private Freiräume, gemeinschaftliche Höfe, Baumpflanzungen, wasserdurchlässige Beläge und Regenwassermanagement sind zentrale Vorgaben. Für ein Pflegehaus bedeutet das: geschützte Außenräume, gute Orientierung, Schatten und barrierearme Wege.'],
-        ['Fassade und Dach', 'Die Fassaden sollen warm, freundlich und klar ablesbar sein. Flachdächer bieten Raum für Begrünung und Solarenergie; Fahrradabstellplätze, Müll und Technik werden zurückhaltend integriert.'],
+        ['Pflege, Tagesstruktur und altersgerechtes Wohnen', 'Morgenhain bewirbt sich um die Entwicklung eines gemischten Pflege- und Wohnangebots. Vorgesehen sind rund 70 stationäre Pflegeplätze, ergänzt durch eine Tagespflege beziehungsweise Tagesstätte sowie einen Anteil seniorengerechter Wohnungen. Die Nutzungen werden so verbunden, dass professionelle Versorgung, vertraute Tagesabläufe und Begegnung im Quartier selbstverständlich nebeneinander bestehen können.', '/assets/projekt-02.png', 'Belebte, grüne Quartiersstraße in Freiburg-Dietenbach'],
+        ['Nachhaltigkeit, die technisch und sozial wirkt', 'Das Gebäude soll die ökologischen Ziele Dietenbachs konsequent aufnehmen: langlebige und freundlich gegliederte Fassaden, begrünte und solar nutzbare Dächer, klimaaktive Freiräume, Regenwasserrückhalt und barrierearme Wege. Nachhaltigkeit verstehen wir zugleich als soziale Aufgabe. Gute Orientierung, geschützte Außenbereiche, gemeinschaftliche Räume und anpassungsfähige Grundrisse schaffen langfristig Lebensqualität, Würde und Zugehörigkeit.', '/assets/projekt-03.png', 'Grüner Stadtteilpark mit altersgemischter Nachbarschaft in Freiburg-Dietenbach'],
       ],
+      firstImageAlt: 'Luftbild der Planung für Freiburg-Dietenbach',
+      galleryAlts: [
+        'Photovoltaikmodule als Bestandteil einer Gebäudefassade',
+        'Geschützter grüner Freiraum einer Wohnanlage',
+        'Begrünte Wohnfassade mit solar genutztem Dach',
+      ],
+      galleryKeyword: 'Altersgerecht leben in nachhaltiger Architektur',
     },
     ansatz: {
       eyebrow: 'Leitbild',
@@ -193,15 +198,20 @@ const content = {
     },
     projekt: {
       eyebrow: 'Project',
-      title: 'Care, housing and neighbourhood as one system',
+      title: 'A social building block for Freiburg-Dietenbach',
       intro:
-        'Morgenhain is planned as a compact urban element: clearly addressed, open to the district, protected inside and precisely organised for care and support processes.',
+        'Dietenbach is conceived as a climate-conscious, inclusive district with short distances, diverse forms of housing and strong social infrastructure. This approach closely matches Morgenhain’s ambitions. A growing neighbourhood needs sustainable provision for older people that combines professional care, independence and participation. Together with an experienced partner such as ASB, we contribute proven expertise from both planning and operation.',
       sections: [
-        ['Use and operation', 'The project is planned as an age-friendly building with professionally operated care and support services. With ASB as partner, professional standards, everyday usability, appreciation and self-determined living are translated into planning from the outset.'],
-        ['Urban block', 'The Dietenbach design handbook describes an open perimeter block with short routes, block openings and shared courtyards. Morgenhain follows this logic: not an isolated special building, but a clear element within the residential fabric.'],
-        ['Open space and sponge-city logic', 'Private open spaces, shared courtyards, tree planting, permeable surfaces and rainwater management are central requirements. For a care building this means protected outdoor areas, clear orientation, shade and accessible routes.'],
-        ['Facade and roof', 'Facades should be warm, friendly and clearly legible. Flat roofs provide space for greenery and solar energy; bicycle parking, waste and technical elements are integrated discreetly.'],
+        ['Care, daytime support and age-friendly housing', 'Morgenhain is applying to develop a mixed care and residential programme. The concept provides approximately 70 residential care places, complemented by day care facilities and a proportion of age-friendly apartments. These uses will be closely connected so that professional support, familiar daily routines and encounters within the neighbourhood can coexist naturally.', '/assets/projekt-02.png', 'Lively green neighbourhood street in Freiburg-Dietenbach'],
+        ['Sustainability with technical and social impact', 'The building will consistently reflect Dietenbach’s environmental goals: durable and welcoming facades, green roofs suitable for solar energy, climate-responsive open spaces, rainwater retention and accessible routes. At the same time, we understand sustainability as a social responsibility. Clear orientation, protected outdoor areas, shared spaces and adaptable floor plans support long-term quality of life, dignity and belonging.', '/assets/projekt-03.png', 'Green district park with an intergenerational neighbourhood in Freiburg-Dietenbach'],
       ],
+      firstImageAlt: 'Aerial view of the Freiburg-Dietenbach masterplan',
+      galleryAlts: [
+        'Photovoltaic modules integrated into a building facade',
+        'Protected green open space within a residential development',
+        'Green residential facade with a solar roof',
+      ],
+      galleryKeyword: 'Age-friendly living in sustainable architecture',
     },
     ansatz: {
       eyebrow: 'Guiding Idea',
@@ -310,7 +320,7 @@ function App() {
       <main id="main" tabIndex="-1">
         <div key={`${lang}-${validRoute}`} className="page-shell">
           {validRoute === 'start' && <Home t={t.start} common={t.common} />}
-          {validRoute === 'projekt' && <Project t={t.projekt} common={t.common} />}
+          {validRoute === 'projekt' && <Project t={t.projekt} />}
           {validRoute === 'ansatz' && <Approach t={t.ansatz} />}
           {validRoute === 'termine' && <Events t={t.termine} />}
           {validRoute === 'kontakt' && <Contact t={t.kontakt} lang={lang} common={t.common} />}
@@ -431,21 +441,53 @@ function Home({ t, common }) {
   );
 }
 
-function Project({ t, common }) {
+function Project({ t }) {
   return (
-    <>
-      <PageHero eyebrow={t.eyebrow} title={t.title} intro={t.intro} image="/assets/morgenhain-courtyard.png" alt={common.imageAlt.introOne} />
-      <section className="section project-layout">
-        <div className="content-column">
-          {t.sections.map(([title, body]) => (
-            <article className="text-block" key={title}>
+    <div className="project-page">
+      <article className="project-story project-story--dark project-story--lead project-story--edge-left">
+        <div className="project-story-inner">
+          <h1 className="project-lead-title">{t.title}</h1>
+          <figure className="project-story-media">
+            <img src="/assets/projekt-01.png" alt={t.firstImageAlt} />
+          </figure>
+          <div className="project-story-copy">
+            <p>{t.intro}</p>
+          </div>
+        </div>
+      </article>
+
+      {t.sections.map(([title, body, image, alt], index) => (
+        <article
+          className={`project-story project-story--light project-story--middle ${index === 0 ? 'project-story--reverse project-story--edge-right project-story--middle-first' : 'project-story--middle-second'}`}
+          key={title}
+        >
+          <div className="project-story-inner">
+            <figure className="project-story-media">
+              <img src={image} alt={alt} loading="lazy" />
+            </figure>
+            <div className="project-story-copy">
               <h2>{title}</h2>
               <p>{body}</p>
-            </article>
+            </div>
+          </div>
+        </article>
+      ))}
+
+      <section className="project-gallery" aria-label={t.eyebrow}>
+        <p className="project-gallery-keyword">{t.galleryKeyword}</p>
+        <div className="project-gallery-inner">
+          {[
+            ['/assets/projekt-04.jpg', t.galleryAlts[0]],
+            ['/assets/projekt-05.png', t.galleryAlts[1]],
+            ['/assets/projekt-06.jpg', t.galleryAlts[2]],
+          ].map(([image, alt]) => (
+            <figure key={image}>
+              <img src={image} alt={alt} loading="lazy" />
+            </figure>
           ))}
         </div>
       </section>
-    </>
+    </div>
   );
 }
 
