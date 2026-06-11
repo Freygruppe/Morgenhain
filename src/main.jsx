@@ -80,26 +80,43 @@ const content = {
       galleryKeyword: 'Altersgerecht leben in nachhaltiger Architektur',
     },
     ansatz: {
-      eyebrow: 'Leitbild',
-      title: 'Planung aus Alltag, Pflege und Ort heraus',
-      intro:
-        'Die Qualität entscheidet sich an täglichen Wegen: vom Zimmer in den Hof, vom Eingang in den Gemeinschaftsbereich, vom Quartier zur Pflegeinfrastruktur.',
-      values: [
-        ['Pflegegerecht und nicht institutionell', 'Das Haus soll Unterstützung bieten, ohne eine klinische Atmosphäre zu erzeugen: übersichtlich, warm, würdevoll und gut auffindbar.'],
-        ['Barrierefrei und orientierend', 'Dietenbach setzt auf Inklusion und kurze Wege. Morgenhain führt diese Haltung mit klaren Adressen, gut lesbaren Erschließungen und schwellenarmen Übergängen fort.'],
-        ['Grün und klimaaktiv', 'Baumkonzept, Regenwasserrückhalt, verschattete Aufenthaltsbereiche, Dachbegrünung und mögliche Solarflächen werden als Teil des architektonischen Konzepts behandelt.'],
-        ['Nachbarschaftlich eingebunden', 'Straßen und Plätze sollen Sozialräume sein. Das Projekt macht die Versorgung älterer Menschen im Quartier sichtbar und selbstverständlich.'],
+      heroAlt: 'Städtebauliches Modell eines grünen, gemeinschaftlich geprägten Quartiers',
+      primary: [
+        {
+          title: 'Alltag, Pflege und Quartier zusammendenken',
+          body: 'Morgenhain verbindet seniorengerechtes Wohnen, professionelle Pflege und gemeinschaftliches Leben zu einem offenen Haus im Quartier. Überschaubare Wege, vertraute Räume und gut erreichbare Angebote unterstützen Selbstständigkeit und geben im Alltag Sicherheit.',
+          image: '/assets/leitbild-02.png',
+          alt: 'Gemeinschaftlicher Aufenthaltsraum für ältere Menschen',
+        },
+        {
+          title: 'Soziale Vielfalt trägt das Quartier',
+          body: 'Morgenhain stärkt ein generationenübergreifendes Umfeld, in dem Wohnen, Pflege, Teilhabe und nachbarschaftliche Angebote einander ergänzen. So entsteht eine dauerhaft tragfähige soziale Infrastruktur für Dietenbach.',
+          image: '/assets/leitbild-03.png',
+          alt: 'Bewohnerinnen bei gemeinschaftlicher Gartenarbeit',
+        },
       ],
+      summary: {
+        title: 'Orientierung, Grün und gelebte Nachbarschaft',
+        body: 'Klare Adressen, kurze Wege und klimaaktive Freiräume verbinden selbstbestimmtes Leben mit verlässlicher Unterstützung. Pflege und Gemeinschaft werden dabei als selbstverständlicher Teil des Quartiers sichtbar.',
+        smallImageAlt: 'Geschützter gemeinschaftlicher Hof einer altersgerechten Wohnanlage',
+        largeImageAlt: 'Aktive ältere Menschen in einem barrierefreien Außenraum',
+      },
     },
     termine: {
-      eyebrow: 'Aktuelles',
-      title: 'Nächste Abstimmungen',
-      intro:
-        'Die nächsten Schritte dienen der Abstimmung von Pflegebetrieb, Freiraum, Fassadenhaltung und Quartiersbezug im Rahmen der Dietenbach-Anforderungen.',
+      title: 'Bevorstehende Termine',
+      moreTitle: 'Zeitplan 1. Vermarktungsabschnitt',
+      imageAlt: 'Inklusive Gemeinschaft in Freiburg-Dietenbach',
+      upcoming: [
+        ['03', 'Jul 2026', '9:30–17:00 Uhr', 'Projektmanagement Baugemeinschaften', 'Seminarreihe in drei Modulen zwischen Juli und Oktober'],
+        ['03', 'Jun 2026', '18:30 Uhr', 'Best Practice: Afterworkabende', 'Das Dreierspann aus Bauherr*in, Projektsteuerung und Architekt*in berichtet'],
+      ],
       events: [
-        ['Konzeptabgleich', 'Sommer 2026', 'Abstimmung von Nutzung, Pflegebetrieb, Baufeldlogik und städtebaulichem Auftreten.'],
-        ['Fachgespräch Betrieb', 'Herbst 2026', 'Vertiefung der betrieblichen Anforderungen mit ASB und Planungsbeteiligten.'],
-        ['Quartiersdialog', 'Winter 2026', 'Vorstellung der sozialen und ökologischen Projektbausteine im Kontext Dietenbach.'],
+        ['08', 'Dez 2026', 'Gemeinderat Vergabeentscheidung'],
+        ['18', 'Sep 2026', 'Frist zur Abgabe der finalen Bewerbung'],
+        ['15', 'Jul – 29. Jul', 'Gespräche mit den Bewerbern'],
+        ['12', 'Jun 2026', 'Frist zur Abgabe der Erstbewerbung'],
+        ['02', 'Mär – 15. Mai', 'Zeitraum für Rückfragen'],
+        ['27', 'Feb 2026', 'Start der Bewerbungsphase'],
       ],
     },
     kontakt: {
@@ -117,25 +134,96 @@ const content = {
       asideText: 'Das Formular speichert keine Daten. Es öffnet Ihr lokales E-Mail-Programm mit den eingegebenen Inhalten.',
     },
     datenschutz: {
-      eyebrow: 'Datenschutz',
-      title: 'Datenschutzhinweise',
-      intro:
-        'Diese statische Webseite speichert keine Formulardaten. Beim Absenden des Kontaktformulars wird Ihr lokales E-Mail-Programm mit den eingegebenen Inhalten geöffnet.',
-      blocks: [
-        ['Verantwortliche Stelle', 'Morgenhain Baugruppe, Freiburg im Breisgau. Die finale Anschrift und vertretungsberechtigte Person werden vor Veröffentlichung ergänzt.'],
-        ['Kontaktaufnahme', 'Wenn Sie per E-Mail Kontakt aufnehmen, werden Ihre Angaben zur Bearbeitung der Anfrage verarbeitet. Eine Weitergabe erfolgt nur, soweit dies für das Projekt erforderlich ist.'],
-        ['Hosting', 'Bei statischer Bereitstellung können durch den Hostinganbieter technische Zugriffsdaten verarbeitet werden. Details richten sich nach dem später gewählten Hosting.'],
+      title: 'Datenschutzerklärung',
+      sections: [
+        {
+          title: '1. Verantwortlicher',
+          paragraphs: [
+            'Verantwortlich für diese Website im Sinne der Datenschutz-Grundverordnung (DSGVO) ist:',
+            'Morgenhain Baugruppe\n[Adresse]',
+          ],
+          email: 'info@morgenhain-dietenbach.de',
+        },
+        {
+          title: '2. Allgemeine Hinweise zur Datenverarbeitung',
+          paragraphs: [
+            'Der Schutz Ihrer persönlichen Daten ist uns wichtig. Personenbezogene Daten werden auf dieser Website nur im technisch notwendigen Umfang verarbeitet.',
+            'Diese Website dient ausschließlich der allgemeinen Information über das Projekt „Morgenhain“.',
+            'Es werden keine Benutzerkonten angelegt, keine Newsletter angeboten und keine personenbezogenen Daten aktiv über Formulare erhoben oder gespeichert.',
+          ],
+        },
+        {
+          title: '3. Hosting und Server-Logfiles',
+          paragraphs: [
+            'Beim Besuch dieser Website werden durch den Hosting-Anbieter automatisch technische Informationen erfasst und temporär in sogenannten Server-Logfiles gespeichert. Dies umfasst insbesondere:',
+          ],
+          list: ['IP-Adresse', 'Datum und Uhrzeit des Zugriffs', 'aufgerufene Seiten', 'Browsertyp und Browserversion', 'Betriebssystem', 'Referrer-URL'],
+          after: [
+            'Die Verarbeitung erfolgt zur Gewährleistung der technischen Sicherheit und Stabilität der Website.',
+            'Eine Zusammenführung dieser Daten mit anderen Datenquellen erfolgt nicht.',
+          ],
+        },
+        {
+          title: '4. Kontaktaufnahme per E-Mail',
+          paragraphs: [
+            'Auf dieser Website besteht die Möglichkeit, über einen E-Mail-Link Kontakt aufzunehmen.',
+            'Wenn Sie uns per E-Mail kontaktieren, werden die von Ihnen übermittelten personenbezogenen Daten (z. B. Name, E-Mail-Adresse und Inhalt der Nachricht) ausschließlich zur Bearbeitung Ihrer Anfrage verwendet.',
+            'Eine Weitergabe an Dritte erfolgt nicht.',
+          ],
+        },
+        {
+          title: '5. SSL- bzw. TLS-Verschlüsselung',
+          paragraphs: [
+            'Diese Website verwendet aus Sicherheitsgründen eine SSL- bzw. TLS-Verschlüsselung. Dadurch können übertragene Inhalte nicht von Dritten mitgelesen werden.',
+          ],
+        },
+        {
+          title: '6. Ihre Rechte',
+          paragraphs: ['Sie haben im Rahmen der geltenden gesetzlichen Bestimmungen jederzeit das Recht auf:'],
+          list: ['Auskunft über Ihre gespeicherten Daten', 'Berichtigung unrichtiger Daten', 'Löschung Ihrer Daten', 'Einschränkung der Verarbeitung', 'Widerspruch gegen die Verarbeitung', 'Datenübertragbarkeit'],
+          after: ['Außerdem steht Ihnen ein Beschwerderecht bei der zuständigen Datenschutzaufsichtsbehörde zu.'],
+        },
+        {
+          title: '7. Änderungen dieser Datenschutzerklärung',
+          paragraphs: [
+            'Wir behalten uns vor, diese Datenschutzerklärung bei Bedarf anzupassen, damit sie den aktuellen rechtlichen Anforderungen entspricht.',
+          ],
+        },
       ],
     },
     impressum: {
-      eyebrow: 'Impressum',
-      title: 'Angaben gemäß § 5 TMG',
-      intro:
-        'Die endgültigen Impressumsdaten werden vor Veröffentlichung ergänzt. Der folgende Abschnitt ist ein Platzhalter für die Projektkommunikation.',
-      blocks: [
-        ['Projekt', 'Morgenhain Baugruppe Freiburg-Dietenbach'],
-        ['Kontakt', contactEmail],
-        ['Hinweis', 'Vertretungsberechtigte Personen, Anschrift, Registerangaben und Umsatzsteuerinformationen werden nach finaler Projektstruktur ergänzt.'],
+      title: 'Impressum',
+      sections: [
+        {
+          title: 'Angaben gemäß § 5 TMG',
+          paragraphs: ['Baugruppe Morgenhain (Initiative in Gründung)\nFreiburg im Breisgau, Deutschland'],
+        },
+        {
+          title: 'Kontakt',
+          email: 'info@morgenhain-dietenbach.de',
+        },
+        {
+          title: 'Verantwortlich für den Inhalt',
+          paragraphs: ['Baugruppe Morgenhain Initiative\n(Kontakt über oben genannte E-Mail-Adresse)'],
+        },
+        {
+          title: 'Haftung für Inhalte',
+          paragraphs: [
+            'Als Diensteanbieter sind wir gemäß § 7 Abs. 1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Eine Haftung für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte wird jedoch im Rahmen der Projektphase ausgeschlossen.',
+          ],
+        },
+        {
+          title: 'EU-Streitschlichtung',
+          paragraphs: ['Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit:'],
+          link: {
+            href: 'https://ec.europa.eu/consumers/odr/',
+            label: 'https://ec.europa.eu/consumers/odr/',
+          },
+        },
+        {
+          title: 'Hinweis',
+          paragraphs: ['Dieses Projekt befindet sich in der Gründungs- und Konzeptphase. Inhalte und Angaben können sich zukünftig ändern.'],
+        },
       ],
     },
   },
@@ -214,26 +302,43 @@ const content = {
       galleryKeyword: 'Age-friendly living in sustainable architecture',
     },
     ansatz: {
-      eyebrow: 'Guiding Idea',
-      title: 'Planning from everyday life, care and place',
-      intro:
-        'Quality is decided by daily routes: from room to courtyard, from entrance to shared area, from district to care infrastructure.',
-      values: [
-        ['Care-oriented, not institutional', 'The building should offer support without a clinical atmosphere: legible, warm, dignified and easy to find.'],
-        ['Accessible and orienting', 'Dietenbach focuses on inclusion and short routes. Morgenhain continues this with clear addresses, readable circulation and low-threshold transitions.'],
-        ['Green and climate-active', 'Tree concept, rainwater retention, shaded seating, green roofs and potential solar surfaces are treated as part of the architectural concept.'],
-        ['Embedded in neighbourhood life', 'Streets and squares should become social spaces. The project makes care for older people visible and natural within the district.'],
+      heroAlt: 'Urban model of a green district shaped by community',
+      primary: [
+        {
+          title: 'Connecting everyday life, care and the district',
+          body: 'Morgenhain brings together age-friendly housing, professional care and community life in an open house within the neighbourhood. Clear routes, familiar spaces and accessible services support independence and provide confidence in daily life.',
+          image: '/assets/leitbild-02.png',
+          alt: 'Shared lounge for older residents',
+        },
+        {
+          title: 'Social diversity sustains the district',
+          body: 'Morgenhain supports an intergenerational setting in which housing, care, participation and neighbourhood services complement one another. This creates resilient social infrastructure for Dietenbach.',
+          image: '/assets/leitbild-03.png',
+          alt: 'Residents gardening together',
+        },
       ],
+      summary: {
+        title: 'Orientation, greenery and neighbourhood life',
+        body: 'Clear addresses, short routes and climate-active open spaces connect independent living with reliable support. Care and community become a visible and natural part of the district.',
+        smallImageAlt: 'Sheltered shared courtyard of an age-friendly residential development',
+        largeImageAlt: 'Active older residents in an accessible outdoor space',
+      },
     },
     termine: {
-      eyebrow: 'Updates',
-      title: 'Next coordination steps',
-      intro:
-        'The next steps coordinate care operation, open space, facade attitude and district connection within the Dietenbach requirements.',
+      title: 'Upcoming Dates',
+      moreTitle: 'Timeline: First Marketing Phase',
+      imageAlt: 'Inclusive community in Freiburg-Dietenbach',
+      upcoming: [
+        ['03', 'Jul 2026', '9:30 am–5:00 pm', 'Project management for building groups', 'A three-module seminar series between July and October'],
+        ['03', 'Jun 2026', '6:30 pm', 'Best Practice: After-work evenings', 'The client, project manager and architect report on their joint experience'],
+      ],
       events: [
-        ['Concept alignment', 'Summer 2026', 'Coordination of use, care operation, plot logic and urban presence.'],
-        ['Operations workshop', 'Autumn 2026', 'Refinement of operating requirements with ASB and planning partners.'],
-        ['District dialogue', 'Winter 2026', 'Presentation of social and ecological project elements in the Dietenbach context.'],
+        ['08', 'Dec 2026', 'Municipal council award decision'],
+        ['18', 'Sep 2026', 'Deadline for the final application'],
+        ['15', 'Jul – 29 Jul', 'Interviews with applicants'],
+        ['12', 'Jun 2026', 'Deadline for the initial application'],
+        ['02', 'Mar – 15 May', 'Period for questions'],
+        ['27', 'Feb 2026', 'Start of the application phase'],
       ],
     },
     kontakt: {
@@ -251,25 +356,96 @@ const content = {
       asideText: 'The form stores no data. It opens your local email client with the content you entered.',
     },
     datenschutz: {
-      eyebrow: 'Privacy',
-      title: 'Privacy notice',
-      intro:
-        'This static website does not store form data. Submitting the contact form opens your local email client with the content you entered.',
-      blocks: [
-        ['Responsible party', 'Morgenhain Baugruppe, Freiburg im Breisgau. The final address and authorised representative will be added before publication.'],
-        ['Contact', 'If you contact us by email, your information is processed to handle the request. It is shared only where necessary for the project.'],
-        ['Hosting', 'With static hosting, the hosting provider may process technical access data. Details depend on the hosting chosen later.'],
+      title: 'Privacy Policy',
+      sections: [
+        {
+          title: '1. Controller',
+          paragraphs: [
+            'The controller responsible for this website within the meaning of the General Data Protection Regulation (GDPR) is:',
+            'Morgenhain Baugruppe\n[Address]',
+          ],
+          email: 'info@morgenhain-dietenbach.de',
+        },
+        {
+          title: '2. General information on data processing',
+          paragraphs: [
+            'Protecting your personal data is important to us. Personal data is processed on this website only to the extent technically necessary.',
+            'This website is used exclusively to provide general information about the “Morgenhain” project.',
+            'No user accounts are created, no newsletters are offered and no personal data is actively collected or stored through forms.',
+          ],
+        },
+        {
+          title: '3. Hosting and server log files',
+          paragraphs: [
+            'When you visit this website, the hosting provider automatically records technical information and stores it temporarily in server log files. This includes in particular:',
+          ],
+          list: ['IP address', 'Date and time of access', 'Pages accessed', 'Browser type and browser version', 'Operating system', 'Referrer URL'],
+          after: [
+            'This processing is carried out to ensure the technical security and stability of the website.',
+            'This data is not combined with data from other sources.',
+          ],
+        },
+        {
+          title: '4. Contact by email',
+          paragraphs: [
+            'This website provides the option of contacting us via an email link.',
+            'If you contact us by email, the personal data you provide (such as your name, email address and message content) will be used exclusively to process your enquiry.',
+            'This information will not be passed on to third parties.',
+          ],
+        },
+        {
+          title: '5. SSL or TLS encryption',
+          paragraphs: [
+            'For security reasons, this website uses SSL or TLS encryption. This prevents transmitted content from being read by third parties.',
+          ],
+        },
+        {
+          title: '6. Your rights',
+          paragraphs: ['Within the scope of the applicable legal provisions, you have the right at any time to:'],
+          list: ['Access your stored data', 'Rectify incorrect data', 'Have your data deleted', 'Restrict processing', 'Object to processing', 'Data portability'],
+          after: ['You also have the right to lodge a complaint with the competent data protection supervisory authority.'],
+        },
+        {
+          title: '7. Changes to this privacy policy',
+          paragraphs: [
+            'We reserve the right to update this privacy policy where necessary so that it continues to comply with current legal requirements.',
+          ],
+        },
       ],
     },
     impressum: {
-      eyebrow: 'Imprint',
-      title: 'Legal information',
-      intro:
-        'The final imprint information will be added before publication. This section is a placeholder for project communication.',
-      blocks: [
-        ['Project', 'Morgenhain Baugruppe Freiburg-Dietenbach'],
-        ['Contact', contactEmail],
-        ['Notice', 'Authorised representatives, address, registry information and tax information will be added after the final project structure is confirmed.'],
+      title: 'Imprint',
+      sections: [
+        {
+          title: 'Information pursuant to Section 5 TMG',
+          paragraphs: ['Baugruppe Morgenhain (initiative in formation)\nFreiburg im Breisgau, Germany'],
+        },
+        {
+          title: 'Contact',
+          email: 'info@morgenhain-dietenbach.de',
+        },
+        {
+          title: 'Responsible for content',
+          paragraphs: ['Baugruppe Morgenhain Initiative\n(Contact via the email address stated above)'],
+        },
+        {
+          title: 'Liability for content',
+          paragraphs: [
+            'As a service provider, we are responsible for our own content on these pages in accordance with Section 7 (1) TMG and general legislation. During the project phase, however, no liability is accepted for the accuracy, completeness or current validity of the content.',
+          ],
+        },
+        {
+          title: 'EU dispute resolution',
+          paragraphs: ['The European Commission provides a platform for online dispute resolution (ODR):'],
+          link: {
+            href: 'https://ec.europa.eu/consumers/odr/',
+            label: 'https://ec.europa.eu/consumers/odr/',
+          },
+        },
+        {
+          title: 'Notice',
+          paragraphs: ['This project is currently in its formation and concept phase. Content and information may change in the future.'],
+        },
       ],
     },
   },
@@ -343,7 +519,7 @@ function App() {
 function Header({ t, route, setRoute, lang, setLang }) {
   const [open, setOpen] = useState(false);
   return (
-    <header className={`site-header ${route === 'start' ? 'on-hero' : ''}`}>
+    <header className={`site-header ${route === 'start' || route === 'ansatz' ? 'on-hero' : ''}`}>
       <button className="brand brand-outside" onClick={() => setRoute('start')} aria-label="Morgenhain home">
         <img src="/assets/morgenhain-logo-cropped.png" alt="Morgenhain" />
       </button>
@@ -493,36 +669,78 @@ function Project({ t }) {
 
 function Approach({ t }) {
   return (
-    <>
-      <PageIntro eyebrow={t.eyebrow} title={t.title} intro={t.intro} />
-      <section className="section value-grid">
-        {t.values.map(([title, body]) => (
-          <article key={title}>
-            <h2>{title}</h2>
-            <p>{body}</p>
-          </article>
-        ))}
-      </section>
-    </>
+    <div className="leitbild-page">
+      <figure className="leitbild-visual">
+        <img src="/assets/leitbild-01.png" alt={t.heroAlt} />
+      </figure>
+
+      <div className="leitbild-content">
+        <section className="leitbild-primary">
+          <div className="leitbild-primary-grid">
+            <div className="leitbild-main-copy leitbild-copy">
+              <h1>{t.primary[0].title}</h1>
+              <p>{t.primary[0].body}</p>
+            </div>
+            <img className="leitbild-primary-image" src={t.primary[1].image} alt={t.primary[1].alt} />
+            <img className="leitbild-primary-small" src={t.primary[0].image} alt={t.primary[0].alt} />
+            <div className="leitbild-orientation leitbild-copy">
+              <h2>{t.summary.title}</h2>
+              <p>{t.summary.body}</p>
+            </div>
+          </div>
+        </section>
+
+        <section className="leitbild-summary">
+          <div className="leitbild-summary-grid">
+            <img className="leitbild-summary-small" src="/assets/leitbild-04.jpg" alt={t.summary.smallImageAlt} />
+            <img className="leitbild-summary-image" src="/assets/leitbild-05.jpg" alt={t.summary.largeImageAlt} />
+            <div className="leitbild-social leitbild-copy">
+              <h2>{t.primary[1].title}</h2>
+              <p>{t.primary[1].body}</p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
   );
 }
 
 function Events({ t }) {
   return (
-    <>
-      <PageIntro eyebrow={t.eyebrow} title={t.title} intro={t.intro} />
-      <section className="section timeline">
-        {t.events.map(([title, date, body]) => (
-          <article key={title}>
-            <time>{date}</time>
-            <div>
+    <section className="events-page">
+      <div className="events-content">
+        <h1>{t.title}</h1>
+        <section className="events-featured" aria-label={t.title}>
+          {t.upcoming.map(([day, month, time, title, body]) => (
+            <article className="event-row event-row--featured" key={`${day}-${month}-${title}`}>
+              <time className="event-date">
+                <strong>{day}</strong>
+                <span>{month}</span>
+              </time>
+              <div className="event-copy">
+                <p className="event-time">{time}</p>
+                <h2>{title}</h2>
+                <p>{body}</p>
+              </div>
+            </article>
+          ))}
+        </section>
+
+        <h2 className="events-more-title">{t.moreTitle}</h2>
+        <section className="events-list" aria-label={t.moreTitle}>
+          {t.events.map(([day, month, title]) => (
+            <article className="event-row" key={`${day}-${month}-${title}`}>
+              <time className="event-date">
+                <strong>{day}</strong>
+                <span>{month}</span>
+              </time>
               <h2>{title}</h2>
-              <p>{body}</p>
-            </div>
-          </article>
-        ))}
-      </section>
-    </>
+            </article>
+          ))}
+        </section>
+      </div>
+      <img className="events-illustration" src="/assets/Termine-02.png" alt={t.imageAlt} />
+    </section>
   );
 }
 
@@ -566,17 +784,31 @@ function Contact({ t, lang }) {
 
 function TextPage({ t }) {
   return (
-    <>
-      <PageIntro eyebrow={t.eyebrow} title={t.title} intro={t.intro} />
-      <section className="section legal">
-        {t.blocks.map(([title, body]) => (
-          <article key={title}>
-            <h2>{title}</h2>
-            <p>{body}</p>
-          </article>
-        ))}
-      </section>
-    </>
+    <section className="legal-page">
+      <div className="legal-inner">
+        <h1>{t.title}</h1>
+        <div className="legal-sections">
+          {t.sections.map((section) => (
+            <article key={section.title}>
+              <h2>{section.title}</h2>
+              {section.paragraphs?.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
+              {section.email && <a href={`mailto:${section.email}`}>{section.email}</a>}
+              {section.list && (
+                <ul>
+                  {section.list.map((item) => <li key={item}>{item}</li>)}
+                </ul>
+              )}
+              {section.after?.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
+              {section.link && (
+                <a href={section.link.href} target="_blank" rel="noreferrer">
+                  {section.link.label}
+                </a>
+              )}
+            </article>
+          ))}
+        </div>
+      </div>
+    </section>
   );
 }
 
